@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+class car
+{
+public:
+char Brand[10];
+char Model[10];
+int DistanceDriven;
+void drive(int km)
+{
+    DistancrDriven= DistanceDrivrn+km;
+}
+void ShowData()
+{
+    cout<<"Brand :"<<Brand<<"Model :"<<"Model "<<Model<<"Ditances"<<endl;
+}
+};
+int main()
+{
+ car*car1 = new car();
+
